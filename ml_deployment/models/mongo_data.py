@@ -1,0 +1,28 @@
+from mongoengine import Document, FloatField, StringField
+
+# Define document model
+class InputFeaturesDocument(Document):
+    Education = FloatField()
+    Income = FloatField()
+    Kidhome = FloatField()
+    Teenhome = FloatField()
+    Recency = FloatField()
+    Wines = FloatField()
+    Fruits = FloatField()
+    Meat = FloatField()
+    Fish = FloatField()
+    Sweets = FloatField()
+    Gold = FloatField()
+    NumDealsPurchases = FloatField()
+    NumWebPurchases = FloatField()
+    NumCatalogPurchases = FloatField()
+    NumStorePurchases = FloatField()
+    NumWebVisitsMonth = FloatField()
+    Customer_Days = FloatField()
+    Age = FloatField()
+    Money_Spent = FloatField()
+    Living_With = FloatField()
+    Children = FloatField()
+    Family_Size = FloatField()
+    Is_Parent = FloatField()
+    prediction = StringField()

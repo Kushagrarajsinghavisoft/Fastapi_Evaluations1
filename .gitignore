@@ -1,0 +1,21 @@
+# Dependency directories
+.venv/
+venv/
+
+# Poetry files
+poetry.lock
+pyproject.toml
+
+# Cache directories
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Build artifacts
+dist/
+build/
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+./env/
